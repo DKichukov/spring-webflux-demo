@@ -1,0 +1,11 @@
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT
+);
+
+INSERT INTO students (id, name, age) VALUES (1, 'John', 20);
+INSERT INTO students (id, name, age) VALUES (2, 'Jane', 22);
+INSERT INTO students (id, name, age) VALUES (3, 'Jack', 21);
+INSERT INTO students (id, name, age) VALUES (4, 'Jill', 23);
+INSERT INTO students (id, name, age) VALUES (5, 'Joe', 24);

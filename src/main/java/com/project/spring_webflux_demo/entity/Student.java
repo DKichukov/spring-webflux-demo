@@ -1,7 +1,12 @@
 package com.project.spring_webflux_demo.entity;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Table;
+
+@Table("students")
 public class Student {
 
+    @Id
     private Integer id;
 
     private String name;
